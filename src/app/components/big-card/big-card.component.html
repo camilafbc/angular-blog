@@ -1,15 +1,15 @@
 <div class="container">
     <div class="big-card__image">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/681px-Placeholder_view_vector.svg.png" alt="img" width="400px" height="300px">
+        <img src="{{ photoCover }}" alt="img" width="400px" height="300px">
     </div>
 
     <div class="big-card__title">
         <a href="#">
-            <h1>Título da Notícia</h1>
+            <h1>{{ cardTitle }}</h1>
         </a>
     </div>
 
     <div class="big-card__description">
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At qui perspiciatis modi vel eum, minus neque delectus deleniti culpa enim veniam minima eveniet voluptas doloremque et quod hic quo beatae!</p>
+        <p>{{ cardDescription }}</p>
     </div>
 </div>
