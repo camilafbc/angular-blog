@@ -7,13 +7,17 @@
 
 .small-card__image > img{
     width: 200px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 5px;
 }
 
 .small-card__title{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 0.75rem;
+    font-size: 0.6rem;
+    margin-left: 1rem;
 }
 
 .small-card__title > a{
@@ -21,6 +25,6 @@
 }
 
 hr{
-    color: gray;
     margin-bottom: 15px;
+    border-color: #80808066;
 }

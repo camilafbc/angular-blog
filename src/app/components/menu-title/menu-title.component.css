@@ -10,5 +10,7 @@
 }
 
 .container_menu-title > hr {
-    margin: 20px 0 5px;
+    margin: 20px auto 5px;
+    width: 90%;
+    border-color: #80808066;
 }
