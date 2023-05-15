@@ -1,0 +1,19 @@
+@media(min-width: 768px){
+
+    .articles{
+        flex-direction: row;
+        justify-content: space-between;
+        
+        /* margin: 30px auto; */
+        width: 90%;
+        gap: 2rem;
+    }
+    
+    .article_main{
+        width: 50%;
+    }
+    
+    .article_others{
+        width: 50%;
+    }
+}

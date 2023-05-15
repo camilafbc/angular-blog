@@ -1,9 +1,19 @@
 
 .articles{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
 
     margin: 30px auto;
+    /* width: 90vw; */
+}
+
+.article_main{
     width: 90%;
+}
+
+.article_others{
+    
 }

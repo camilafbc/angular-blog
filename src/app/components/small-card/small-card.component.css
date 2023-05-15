@@ -1,8 +1,14 @@
+/* .container{
+
+} */
+
 .small-card__content{
     display: flex;
-    flex-direction: row;
-    width: 700px;
-    margin-bottom: 15px;
+    flex-direction: column;
+    align-items: center;
+    /* width: 700px; */
+    width: 90%;
+    margin: 0 auto 15px;
 }
 
 .small-card__image > img{
@@ -17,14 +23,16 @@
     justify-content: center;
     align-items: center;
     font-size: 0.6rem;
-    margin-left: 1rem;
+    /* margin-left: 1rem; */
 }
 
 .small-card__title > a{
     text-decoration: none;
+    text-align: center;
 }
 
 hr{
-    margin-bottom: 15px;
+    margin: 0 auto 15px;
     border-color: #80808066;
+    width: 90%;
 }
