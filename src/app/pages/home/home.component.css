@@ -15,9 +15,41 @@
 }
 
 .under_cards{
-    height: 500px;
+    min-height: 500px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.under_cards_content{
+    margin: 5rem 0;
+    display: grid;
+    row-gap: 1rem;
+    grid-template-areas:
+        'card-1'
+        'card-2'
+        'card-3'
+        'card-4';
+}
+
+
+.under_card_1{
+    grid-area: card-1;
+}
+
+.under_card_2{
+    grid-area: card-2;
+}
+
+.under_card_3{
+    grid-area: card-3;
+}
+
+.under_card_4{
+    grid-area: card-4;
 }
 
 app-under-card{
     background-color: #f5f5f5;
 }
+
