@@ -14,6 +14,10 @@
     width: 90%;
 }
 
+.article_others{
+    margin-top: 3rem;
+}
+
 .under_cards{
     min-height: 500px;
     display: grid;
@@ -21,8 +25,20 @@
     align-items: center;
 }
 
+.under_title{
+    width: 90%;
+    margin-top: 1.5rem;
+    justify-self: center;
+}
+
+.under_title > h5{
+    background-color: #f5f5f5;
+    color: #111111;
+}
+
 .under_cards_content{
-    margin: 5rem 0;
+    width: 90%;
+    margin: 3rem 0;
     display: grid;
     row-gap: 1rem;
     grid-template-areas:

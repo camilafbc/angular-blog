@@ -1,0 +1,17 @@
+@media(min-width: 420px){
+    .container_menu-title > h1 {
+        font-size: 4rem;
+    }
+}
+
+@media(min-width: 768px){
+    .container_menu-title > h1 {
+        font-size: 6rem;
+    }
+}
+
+@media(min-width: 1000px){
+    .container_menu-title > h1 {
+        font-size: 7rem;
+    }
+}

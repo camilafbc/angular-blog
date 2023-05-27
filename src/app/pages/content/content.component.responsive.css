@@ -1,0 +1,11 @@
+@media(min-width: 360px){
+    .content_cover > img{
+        width: 320px;
+    }
+}
+
+@media(min-width: 550px){
+    .content_cover > img{
+        width: 500px;
+    }
+}

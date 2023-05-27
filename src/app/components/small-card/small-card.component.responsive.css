@@ -13,11 +13,21 @@
 
     .small-card__title{
         width: 60%;
-        font-size: 0.4rem;
+        font-size: 0.5rem;
     }
 
     .small-card__title > a{
         text-align: start;
-        margin-left: 0.5rem;
+        margin-left: 0.75rem;
+    }
+}
+
+@media(min-width: 768px){
+    .small-card__content{
+        width: 100%;
+    }
+
+    hr{
+        width: 100%;
     }
 }
